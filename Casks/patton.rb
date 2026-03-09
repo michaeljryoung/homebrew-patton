@@ -1,6 +1,6 @@
 cask "patton" do
-  version "1.1.3"
-  sha256 "348a532d40bf84fde773cecb2985cf9eba03eb479f9fc9bca05fc2947c2ff1d0"
+  version "1.1.4"
+  sha256 "0f61f192051552b3433dbbb7a4512a9465eb7bf0a08bdeac8a13c45cb92d92da"
 
   url "https://github.com/michaeljryoung/patton/releases/download/v#{version}/Patton-#{version}-arm64.dmg"
   name "Patton"
