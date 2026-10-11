@@ -1,6 +1,6 @@
 cask "patton" do
-  version "1.10.1"
-  sha256 "6d1b200a2dec34b2ee2f768260d2a2418eb7c2d12fcfec36dc7402e9a58cf727"
+  version "1.10.2"
+  sha256 "460c0ad5cfae5e64602049b7576c5093d93c9406cf0060fa5fb4afd6fe64f1f8"
 
   url "https://github.com/michaeljryoung/patton/releases/download/v#{version}/Patton-#{version}-arm64.dmg"
   name "Patton"
@@ -8,6 +8,7 @@ cask "patton" do
   homepage "https://github.com/michaeljryoung/patton"
 
   depends_on arch: :arm64
+  depends_on macos: ">= :ventura"
 
   app "Patton.app"
 
